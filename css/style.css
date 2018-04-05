@@ -67,8 +67,18 @@ body{
     background-repeat: no-repeat;
     width: 466px;
     height: 638px;
-}
+    padding: 30px;
 
+}
+.top-form-title{
+    font-family: Cubano;
+    color: #9c2c27;
+    text-align: center;
+}
+.callmeback-button-div{
+    text-align: center;
+    padding-top: 140px;
+}
 .features-div{
     background-color: #df3049;
     padding-top: 0px;
@@ -197,7 +207,7 @@ body{
 
 }
 
-.download-catalogue-div > button{
+.download-catalogue-div, .callmeback-button-div > button{
     width: 228px;
     height: 45px;
     background-image: url("../imgs/button.png");
@@ -206,6 +216,7 @@ body{
     font-size: 18px;
     /*font-weight: bold;*/
 }
+
 .catalogue-cover-div{
     position: absolute;
     top:20px;
