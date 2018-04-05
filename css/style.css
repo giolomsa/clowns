@@ -13,7 +13,7 @@
 /**/
 
 body{
-    background-image: url("../im gs/bg_l.jpg");
+    background-image: url("../img s/bg_l.jpg");
     background-position: center top;
     background-repeat: no-repeat;
 }
@@ -280,4 +280,69 @@ body{
 }
 .instagram-div{
     background-color: #e9e9f4;
+    text-align: center;
+    padding-top: 30px;
+}
+.follow-instagram-button-div > button{
+    width: 336px;
+    height: 46px;
+    background-image: url("../imgs/big-button.png");
+    border: 0;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.instagram-image-div{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.instagram-image1{
+    width: 200px;
+    height:197px;
+    background-image: url("../imgs/instagram.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position: 0px 0px;
+}
+.instagram-image2{
+    width: 200px;
+    height:197px;
+    background-image: url("../imgs/instagram.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position: -200px 0px;
+}
+.instagram-image3{
+    width: 200px;
+    height:197px;
+    background-image: url("../imgs/instagram.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position: -400px 0px;
+}
+.instagram-image4{
+    width: 200px;
+    height:197px;
+    background-image: url("../imgs/instagram.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position: -600px 0px;
+}
+.instagram-image5{
+    width: 200px;
+    height:197px;
+    background-image: url("../imgs/instagram.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position: -800px 0px;
+}
+.instagram-image6{
+    width: 200px;
+    height:197px;
+    background-image: url("../imgs/instagram.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position: -1000px 0px;
 }
