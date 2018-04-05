@@ -13,7 +13,7 @@
 /**/
 
 body{
-    background-image: url("../img s/bg_l.jpg");
+    background-image: url("../im gs/bg_l.jpg");
     background-position: center top;
     background-repeat: no-repeat;
 }
@@ -91,8 +91,7 @@ body{
 }
 
 .whyclowns-div{
-    /*background-color: #ffffff;*/
-    padding-top: 0px;
+    padding-bottom: 20px;
     text-align: center;
     color: #255ddc;
     /*padding: 0 30px 26px 30px;*/
@@ -162,10 +161,53 @@ body{
     background-position: center;
     background-position: -720px 0px;
     margin-top: 20px;
+}
+
+.catalogue-main-div{
+    background-color: #000000;
+    background-image: url("../imgs/dark-bg.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 300px;
+}
+
+.catalogue-div{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 300px;
+}
+
+.catalogue-title-div{
+    color: #ffffff;
+    text-align: right;
+    padding-top: 20px;
+}
+.catalogue-title-div > h1{
+    font-family: Cubano;
+}
+
+.catalogue-title-div > h4{
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.download-catalogue-div{
+    float: right;
+    padding-top: 30px;
 
 }
-/*
 
-478
-
-*/
+.download-catalogue-div > button{
+    width: 228px;
+    height: 45px;
+    background-image: url("../imgs/button.png");
+    border: 0;
+    color: #ffffff;
+    font-size: 18px;
+    /*font-weight: bold;*/
+}
+.catalogue-cover-div{
+    position: absolute;
+    top:20px;
+}
