@@ -277,6 +277,17 @@ body{
     }
 }
 
+
+@media screen and (max-width: 992px)  {
+    .catalogue-cover-div{
+        position: absolute;
+        top:10px;
+        left: 100px;
+        z-index: 111;
+    }
+}
+
+
 @media screen and (max-width: 1600px)  {
     .catalogue-title-div > h1{
         font-size: 26px;
